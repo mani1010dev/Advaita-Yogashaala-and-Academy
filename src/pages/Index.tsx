@@ -3,12 +3,12 @@ import HeroSection from "@/components/HeroSection";
 import PillarsSection from "@/components/PillarsSection";
 import ProgramsSection from "@/components/ProgramsSection";
 import AboutSection from "@/components/AboutSection";
-import InstructorsSection from "@/components/InstructorsSection";
 import GallerySection from "@/components/GallerySection";
-import TestimonialsSection from "@/components/TestimonialsSection";
+import InstagramSection from "@/components/InstagramSection";
 import BreathingCircle from "@/components/BreathingCircle";
 import BookingSection from "@/components/BookingSection";
 import ContactSection from "@/components/ContactSection";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Footer from "@/components/Footer";
 
 const Index = () => (
@@ -18,12 +18,12 @@ const Index = () => (
     <PillarsSection />
     <ProgramsSection />
     <AboutSection />
-    <InstructorsSection />
     <GallerySection />
-    <TestimonialsSection />
+    <InstagramSection />
     <BreathingCircle />
     <BookingSection />
     <ContactSection />
+    <FloatingWhatsApp />
     <Footer />
   </div>
 );
