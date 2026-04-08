@@ -33,7 +33,7 @@ const PillarsSection = () => {
     <section className="section-padding bg-muted/50">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
-          <div className="text-center mb-10 md:mb-16">
+          <div className="text-center mb-8 md:mb-16">
             <p className="font-body text-sm text-primary tracking-[0.2em] uppercase mb-3">The Three Pillars</p>
             <h2 className="heading-lg text-foreground">Your Path to Balance</h2>
           </div>
