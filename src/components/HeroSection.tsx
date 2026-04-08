@@ -4,7 +4,7 @@ const particles = Array.from({ length: 8 }, (_, i) => i);
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-[85vh] md:min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
@@ -40,13 +40,13 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
-        <p className="font-body text-sm md:text-base text-primary tracking-[0.3em] uppercase mb-6 animate-fade-in-up">
+        <p className="font-body text-xs md:text-base text-primary tracking-[0.3em] uppercase mb-4 md:mb-6 animate-fade-in-up">
           Advaita Yogashaala and Academy
         </p>
-        <h1 className="heading-xl text-foreground mb-6 animate-fade-in-up animation-delay-200">
+        <h1 className="heading-xl text-foreground mb-4 md:mb-6 animate-fade-in-up animation-delay-200">
           Discover Inner Peace<br />& Wisdom
         </h1>
-        <p className="text-body text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-in-up animation-delay-400">
+        <p className="text-body text-muted-foreground text-sm md:text-base max-w-xl mx-auto mb-8 md:mb-10 animate-fade-in-up animation-delay-400">
           A space for transformation through Yoga, Meditation, and Mindfulness.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up animation-delay-600">
@@ -56,9 +56,9 @@ const HeroSection = () => {
       </div>
 
       {/* Breathing circle hint */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-fade-in-up animation-delay-1200">
-        <div className="w-10 h-10 rounded-full border-2 border-primary/40 animate-breathe flex items-center justify-center">
-          <div className="w-2 h-2 rounded-full bg-primary/60" />
+      <div className="absolute bottom-8 md:bottom-12 left-1/2 -translate-x-1/2 animate-fade-in-up animation-delay-1200">
+        <div className="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-primary/40 animate-breathe flex items-center justify-center">
+          <div className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-primary/60" />
         </div>
       </div>
     </section>
