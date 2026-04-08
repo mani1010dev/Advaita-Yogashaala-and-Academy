@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg-yoga.png";
 
 const particles = Array.from({ length: 8 }, (_, i) => i);
 
@@ -9,22 +9,24 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="Peaceful sunrise over misty mountains"
+          alt="Peaceful yoga studio with natural light"
           className="w-full h-full object-cover"
           width={1920}
           height={1080}
         />
-        <div className="absolute inset-0 bg-background/40" />
+        {/* Lighter, brighter overlay */}
+        <div className="absolute inset-0 bg-white/10 backdrop-brightness-110" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-transparent to-background/50" />
       </div>
 
       {/* Floating particles */}
       {particles.map((i) => (
         <div
           key={i}
-          className="absolute rounded-full bg-gold/30 animate-float-particle"
+          className="absolute rounded-full bg-primary/40 animate-float-particle"
           style={{
-            width: `${4 + Math.random() * 6}px`,
-            height: `${4 + Math.random() * 6}px`,
+            width: `${4 + Math.random() * 8}px`,
+            height: `${4 + Math.random() * 8}px`,
             left: `${10 + Math.random() * 80}%`,
             top: `${20 + Math.random() * 60}%`,
             animationDelay: `${i * 1.2}s`,
@@ -33,8 +35,8 @@ const HeroSection = () => {
         />
       ))}
 
-      {/* Gentle glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-gold/10 blur-3xl animate-gentle-glow" />
+      {/* Brilliant sun glow */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-primary/20 blur-[120px] animate-gentle-glow" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
