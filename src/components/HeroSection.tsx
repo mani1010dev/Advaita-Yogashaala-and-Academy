@@ -1,0 +1,66 @@
+import heroBg from "@/assets/hero-bg.jpg";
+
+const particles = Array.from({ length: 8 }, (_, i) => i);
+
+const HeroSection = () => {
+  return (
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src={heroBg}
+          alt="Peaceful sunrise over misty mountains"
+          className="w-full h-full object-cover"
+          width={1920}
+          height={1080}
+        />
+        <div className="absolute inset-0 bg-background/40" />
+      </div>
+
+      {/* Floating particles */}
+      {particles.map((i) => (
+        <div
+          key={i}
+          className="absolute rounded-full bg-gold/30 animate-float-particle"
+          style={{
+            width: `${4 + Math.random() * 6}px`,
+            height: `${4 + Math.random() * 6}px`,
+            left: `${10 + Math.random() * 80}%`,
+            top: `${20 + Math.random() * 60}%`,
+            animationDelay: `${i * 1.2}s`,
+            animationDuration: `${6 + Math.random() * 4}s`,
+          }}
+        />
+      ))}
+
+      {/* Gentle glow */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-gold/10 blur-3xl animate-gentle-glow" />
+
+      {/* Content */}
+      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
+        <p className="font-body text-sm md:text-base text-primary tracking-[0.3em] uppercase mb-6 animate-fade-in-up">
+          Advaita Yogashaala and Academy
+        </p>
+        <h1 className="heading-xl text-foreground mb-6 animate-fade-in-up animation-delay-200">
+          Discover Inner Peace<br />& Wisdom
+        </h1>
+        <p className="text-body text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-in-up animation-delay-400">
+          A space for transformation through Yoga, Meditation, and Mindfulness.
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up animation-delay-600">
+          <a href="#book" className="btn-primary">Start Your Journey</a>
+          <a href="#programs" className="btn-outline">Explore Programs</a>
+        </div>
+      </div>
+
+      {/* Breathing circle hint */}
+      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-fade-in-up animation-delay-1200">
+        <div className="w-10 h-10 rounded-full border-2 border-primary/40 animate-breathe flex items-center justify-center">
+          <div className="w-2 h-2 rounded-full bg-primary/60" />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
