@@ -19,11 +19,11 @@ const Navbar = () => {
           <img 
             src="/play school logo.png" 
             alt="Advaita Yogashaala and Academy" 
-            className="h-10 md:h-12 w-auto object-contain" 
+            className="h-9 md:h-12 w-auto object-contain" 
           />
-          <span className="font-heading text-lg md:text-xl font-semibold text-foreground tracking-tight leading-tight hidden sm:block">
-            Advaita Yogashaala <br className="md:hidden" />
-            <span className="text-primary font-body text-base md:text-lg lowercase italic mx-1">and</span> Academy
+          <span className="font-heading text-sm md:text-xl font-semibold text-foreground tracking-tight leading-tight block">
+            Advaita Yogashaala <br className="hidden md:inline" />
+            <span className="text-primary font-body text-xs md:text-lg lowercase italic mx-1">and</span> Academy
           </span>
         </a>
 
