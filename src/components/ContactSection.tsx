@@ -19,8 +19,8 @@ const ContactSection = () => (
             { 
               icon: MapPin, 
               label: "Location", 
-              value: "Anna Nagar, Chennai", 
-              href: "https://maps.google.com/?q=76,+Lakshmi+Street,+Agathiyar+Nagar+Extension+1st+St,+Anna+Nagar,+Chennai,+Tamil+Nadu+600049" 
+              value: "76, Lakshmi St, Agathiyar Nagar, Anna Nagar, Chennai", 
+              href: "https://maps.app.goo.gl/SwcjQyKbzKj73Lcq5" 
             },
           ].map((c) => {
             const Icon = c.icon;
