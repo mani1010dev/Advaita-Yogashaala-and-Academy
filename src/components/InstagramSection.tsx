@@ -14,7 +14,7 @@ const InstagramSection = () => {
     <section id="instagram" className="section-padding bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <ScrollReveal>
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <p className="font-body text-sm text-primary tracking-[0.2em] uppercase mb-3 text-center">Get Social</p>
             <h2 className="heading-lg text-foreground text-center">Follow Our Journey</h2>
             <p className="text-body text-muted-foreground mt-4 max-w-2xl mx-auto text-center">
@@ -56,7 +56,7 @@ const InstagramSection = () => {
         </div>
 
         <ScrollReveal delay={600}>
-          <div className="mt-16 text-center">
+          <div className="mt-10 md:mt-16 text-center">
             <a 
               href="https://www.instagram.com/advaita_dance_studio" 
               target="_blank" 

@@ -12,7 +12,7 @@ const ProgramsSection = () => (
   <section id="programs" className="section-padding">
     <div className="max-w-6xl mx-auto">
       <ScrollReveal>
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <p className="font-body text-sm text-primary tracking-[0.2em] uppercase mb-3">What We Offer</p>
           <h2 className="heading-lg text-foreground">Our Programs</h2>
         </div>
