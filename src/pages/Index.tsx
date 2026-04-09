@@ -3,6 +3,8 @@ import HeroSection from "@/components/HeroSection";
 import PillarsSection from "@/components/PillarsSection";
 import ProgramsSection from "@/components/ProgramsSection";
 import AboutSection from "@/components/AboutSection";
+import MediaShowcaseSection from "@/components/MediaShowcaseSection";
+import FounderAndAchievements from "@/components/FounderAndAchievements";
 import GallerySection from "@/components/GallerySection";
 import InstagramSection from "@/components/InstagramSection";
 import BreathingCircle from "@/components/BreathingCircle";
@@ -18,6 +20,8 @@ const Index = () => (
     <PillarsSection />
     <ProgramsSection />
     <AboutSection />
+    <MediaShowcaseSection />
+    <FounderAndAchievements />
     <GallerySection />
     <InstagramSection />
     <BreathingCircle />

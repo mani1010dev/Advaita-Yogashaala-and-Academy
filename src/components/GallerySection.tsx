@@ -1,20 +1,21 @@
 import ScrollReveal from "./ScrollReveal";
 const images = [
+  { src: "/photos/pdf/advaita-page-8.png", alt: "Mass yoga event and demonstration" },
+  { src: "/photos/pdf/advaita-page-9.png", alt: "Advaita students community class" },
+  { src: "/photos/pdf/advaita-page-12.png", alt: "Advaita yogashaala group photo" },
+  { src: "/photos/pdf/advaita-page-14.png", alt: "Yoga practitioners gathering" },
+  { src: "/photos/pdf/advaita-page-18.png", alt: "Community alignment and practice" },
+  { src: "/photos/pdf/advaita-page-22.png", alt: "Children's yoga session" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.06.38 PM.jpeg", alt: "Students engaging in activities" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.06.52 PM.jpeg", alt: "Classroom learning session" },
-  { src: "/photos/WhatsApp Image 2026-04-08 at 3.07.10 PM.jpeg", alt: "Creative work by kids" },
+  { src: "/photos/WhatsApp Image 2026-04-08 at 3.07.10 PM.jpeg", alt: "Creative work" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.07.25 PM.jpeg", alt: "Group playing time" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.07.36 PM.jpeg", alt: "Art and craft activity" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.07.49 PM.jpeg", alt: "Outdoor games and fun" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.08.03 PM.jpeg", alt: "Teacher with students" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.08.19 PM.jpeg", alt: "Indoor play area" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.08.33 PM.jpeg", alt: "Storytelling session" },
-  { src: "/photos/WhatsApp Image 2026-04-08 at 3.08.46 PM.jpeg", alt: "Music and dance class" },
   { src: "/photos/WhatsApp Image 2026-04-08 at 3.09.02 PM.jpeg", alt: "Kids learning together" },
-  { src: "/photos/WhatsApp Image 2026-04-08 at 3.09.18 PM.jpeg", alt: "Physical education time" },
-  { src: "/photos/WhatsApp Image 2026-04-08 at 3.09.47 PM.jpeg", alt: "School event celebration" },
-  { src: "/photos/WhatsApp Image 2026-04-08 at 3.10.01 PM.jpeg", alt: "Hands-on learning experience" },
-  { src: "/photos/WhatsApp Image 2026-04-08 at 3.10.15 PM.jpeg", alt: "Safe and colorful environment" },
 ];
 
 const GallerySection = () => (
