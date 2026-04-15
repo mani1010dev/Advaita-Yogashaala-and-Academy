@@ -12,7 +12,7 @@ const AboutSection = () => (
         <p className="text-body text-muted-foreground mb-6">
           <span className="font-heading italic text-foreground">Advaita</span> — the ancient Sanskrit word for
           "non-duality" — teaches us that the separation we perceive between self and universe is an illusion.
-          At Advaita Yoga Academy, we guide you back to this fundamental truth.
+          At <span className="text-foreground font-medium">Advaita Yogashala</span>, we guide you back to this fundamental truth.
         </p>
       </ScrollReveal>
 

@@ -39,15 +39,12 @@ const HeroSection = () => {
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-primary/20 blur-[120px] animate-gentle-glow" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto mt-8 md:mt-0">
-        <p className="font-body text-xs md:text-base text-primary tracking-[0.3em] uppercase mb-4 md:mb-6 animate-fade-in-up">
-          Advaita Yogashaala and Academy
-        </p>
-        <h1 className="heading-xl text-foreground mb-4 md:mb-6 animate-fade-in-up animation-delay-200">
-          Discover Inner Peace<br />& Wisdom
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto mt-8 md:mt-0">
+        <h1 className="text-5xl md:text-8xl lg:text-9xl mb-4 md:mb-6 animate-fade-in-up animation-delay-200" style={{ fontFamily: "'Dancing Script', cursive" }}>
+          <span className="text-foreground drop-shadow-sm font-bold">Advaita</span> <span className="text-primary drop-shadow-sm font-bold">Yogashala</span>
         </h1>
-        <p className="text-body text-muted-foreground max-w-xl mx-auto mb-8 md:mb-10 animate-fade-in-up animation-delay-400">
-          A space for transformation through Yoga, Meditation, and Mindfulness.
+        <p className="text-xl md:text-3xl font-body text-muted-foreground max-w-2xl mx-auto mb-8 md:mb-10 animate-fade-in-up animation-delay-400 tracking-wide uppercase font-light">
+          Rejuvenate <span className="text-foreground font-medium">Yourself</span> With <span className="text-primary font-medium">Yoga</span>
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up animation-delay-600">
           <a href="#book" className="btn-primary">Start Your Journey</a>
